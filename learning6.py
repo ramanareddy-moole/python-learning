@@ -21,3 +21,5 @@ while proceed == 'y':
         normal_pay = BASE_HOURS * pay_rate
         print("Normal Pay is :" + str(normal_pay))
     #proceed = input("do you want to calculate for another pay? please press y to proceed otherwise n")
+else:
+    pass
