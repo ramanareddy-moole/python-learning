@@ -1,0 +1,59 @@
+1. Basics Programming Laguage
+	i. Litterals
+	ii. Variables - Define and Assign
+	iii. Datatypes
+	iv. Operators - arthimetic, relational and logical operators
+	
+	+, -, /, %, *
+	>, <, >=, <=, ==, !=
+	&&, ||, !
+
+	Strings
+	Numbers - this includes both integers and double
+	Lists - a collection of names, numbers or boolean or any type
+	Boolean - True or False
+	Tuples and - (1, 2, 3) - coordinate based type
+	Dictionary - {"company": 'infy', 'location':'bengaluru'} - key value pair
+	
+	Keywords or reserved keywords
+	
+	and class or finally exec print break continue if else elif with in lambda
+	
+	condition1 or condition2
+	
+	class = "jhsgdasd"
+
+	121232 - even
+
+23434.34
+
+True or False
+
+Aditya
+
+Hema
+
+Infosys
+
+Aditya123@gmail.com
+
+variable comapny_name = "infy"
+
+variable number = 12434
+
+variale bool = True
+
+variable salary = 128734.233
+salary = 734324.32
+
+comapny_name = "wipro"
+
+comapny_name = "tcs"
+
+printf(comapny_name)
+
+compa12_name
+12comp_name = ""This is line one
+this is line two
+this is line three
+this is line four
