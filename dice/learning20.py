@@ -1,7 +1,7 @@
 # class - this is a blueprint of an object
 
 import random
-
+import bankaccount.BankAccount
 
 class Dice:
 
@@ -9,7 +9,7 @@ class Dice:
     # Shift+F6 is for renaming any variable, function or class anything - keyboard shortcut
     def __init__(self):
         print("creating of the object is done here")
-        # self.dice_face_up = 6;
+        self.dice_face_up = 6;
         # print(self)
         # self.db_connection = db_connection
         pass
@@ -19,16 +19,13 @@ class Dice:
         # print(self)
         pass
 
-    def do_another_thinG(self):
-        self.roll_dice()
-
 
     # def get_data_from_db(self):
         # self.db_connection.connect()
 
 print("creating an object")
 d = Dice() # this is where you are creating an object and assigining the object to d variable
-# print(d)
+print(d)
 # Dice d = new Dice();
 print("callig the roll_dice function: Iteration :1")
 d.roll_dice() # at this instance only self will have d object
@@ -38,10 +35,12 @@ print("callig the roll_dice function: Iteration :2")
 d.roll_dice()
 print(d.dice_face_up)
 
-print("callig the roll_dice function: Iteration :3")
-d.roll_dice()
-print(d.dice_face_up)
+# print("callig the roll_dice function: Iteration :3")
+# d.roll_dice()
+# print(d.dice_face_up)
 
+savingsAcc = bankaccount.BankAccount.BankAccount(89734)
+print(savingsAcc)
 # print("creating the second object")
 # d2 = Dice()
 # print(d2)
